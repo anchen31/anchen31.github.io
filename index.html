@@ -1,234 +1,149 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Andy Chen</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/94e3c12149.js" crossorigin="anonymous"></script>
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Skills</a></li>
-							<li><a href="#two">Work experience</a></li>
-							<li><a href="#three">Projects</a></li>
-							<li><a href="#four">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Andy Chen</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Projects</a>
+    <a href="#Skills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Skills & Edu</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact & Resume</a>
+  </div>
+</div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscree	n fade-up">
-						<div class="inner">
-							<h1>Andy Chen</h1>
-							<p>Sophmore at City College of San Francisco<br />
-							Computer Science Major</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Download Resume</a></li>
-								<!-- #one moves to the first section -->
-							</ul>
-						</div>
-					</section>
+<!-- Page content -->
+<div class="w3-content w3-sand" style="max-width:2000px;margin-top:46px">
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/java1.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Java</h2>
-									<p>I have completed multiple college courses in Java up to data structures and algorithms CS111C.</p>
-									<ul class="actions">
-										<!-- href links a website -->
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/python2.jpeg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Python</h2>
-									<p>I have taught myself Python and have created multiple projects with this language.</p>
-									<ul class="actions">
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/da.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Data analysis</h2>
-									<p>I have experience using python libraries such as Pandas, Matplotlip, and Numpy.</p>
-									<ul class="actions">
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Andy Chen</h2>
+    <p class="w3-opacity"><i>Computer Science </i></p>
+    <p class="w3-opacity"><i>Sophmore at City College of San Francisco</i></p>
+    <p class="w3-justify"></p>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>My Work Experience</h2>
-							<p>
+  </div>
 
-							</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-tree"></span>
-									<h3>San Francisco Rec and Park</h3>
-									<p>Facility Assistant</p>
-									<p>2016-2017</p>
-									<li><a href="https://sfrecpark.org/" class="button">Learn more</a></li>
-								</section>
-								
-								
-								<section>
-									<span class="icon solid major fa-shopping-cart"></span>
-									<h3>UNIQLO</h3>
-									<p>Sales Associate</p>
-									<p>2019-2019</p>
-									<li><a href="https://www.uniqlo.com/us/en/home/" class="button">Learn more</a></li>
-								</section>
-							</div>
-							<ul class="actions">
-							</ul>
-						</div>
-					</section>
-				<!-- Three -->
-					<section id="three" class="wrapper style2 spotlights">
-						<section>
-							<div class="content">
-								<div class="inner">
-									<h2>My Projects</h2>
-									<p></p>
-									<ul class="actions">
-										<!-- href links a website -->
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/stocks.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Automated Stock Bot</h2>
-									<p>This bot uses Interactive Brokers API and has an algorithm that buys and sells according to preset parameters.</p>
-									<li><a href="https://sfrecpark.org/" class="button">Learn more</a></li>
-									<ul class="actions">
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/doc.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Diagnostic Website</h2>
-									<p>This website uses dataframes to match symptoms and body parts to a directed diagnosis.</p>
-									<li><a href="https://sfrecpark.org/" class="button">Learn more</a></li>
-									<ul class="actions">
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Personal Projects</h2>
 
-				<!-- Four -->
-					<section id="four" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">andy.chen69@outlook.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
 
-			</div>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <!--<img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">-->
+          <div class="w3-container w3-sand">
+            <p><b>Stock bot with GUI</b></p>
+            <p class="w3-opacity">Currently expanding</p>
+            <p>This is written in Python and uses the interactive brokers API to buy/sell and pull data. This also uses the package Tkinter to create a GUI alongside other graphing and dataset manipulating packages from the Python library.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://github.com/anchen31/StonkBot';">View Project</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!--<img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">-->
+          <div class="w3-container w3-sand">
+            <p><b>Personal website</b></p>
+            <p>This project used a template and expanded off of it using HTML5, CSS, and Bootstrap to get a beginners feel of web development and expand my UI and front end developing skills.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://github.com/anchen31/anchen31.github.io';">View Project</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!--<img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">-->
+          <div class="w3-container w3-sand">
+            <p><b>Symptom Diagnosis</b></p>
+            <p>This project is written in Python and uses a dataset from Kaggle to give a diagnosis based of off a user's input of symptoms. 
+                It will give out a diagnosis and organize it by it's commonality and show whether it is life threatening or not.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick= "window.location.href='https://github.com/anchen31/symptPred';" >View Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+    <!-- The Skills Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Skills">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+          <h2 class="w3-wide w3-center">Skills & Education</h2>
+    
+    
+          <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+              <div class="w3-container w3-sand">
+                <p><b>Skills</b></p>
+                <p>Java Language</p>
+                <p>Html Language</p>
+                <p>Css Language</p>
+                <p>Python Language</p>
+                <p>Pandas Library</p>
+                <p>Numpy Library</p>
+                <p>Beautiful Soup Library</p>
+                <p>Matplotlib Library</p>
+                <p>Tkinter Library</p>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <div class="w3-container w3-sand">
+                <p><b>Skills currently acquiring</b></p>
+                <p>C++ Language</p>
+                <p>Scikit-Learn library</p>
+                <p>Tensor Flow library</p>
+                <p>PyTorch Library</p>
+                <p>Machine Learning</p>
+                <p>Linear regression</p>
+                <p>Neural Networks</p>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <div class="w3-container w3-sand">
+                <p><b>Instituitional Education</b></p>
+                <p>Calculus 1-3 and persuing Linear Algebra and differential equations</p>
+                <p>Data Structures and Algorithms in Java</p>
+                <p>Discrete Math</p>
+                <p>Fundamentals in Java</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
 
-	</body>
+  <!-- The Contact Section -->
+  <div style="text-align: center;"class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    
+    <h2 class="w3-wide w3-center">Contact & Resume</h2>
+    <a href="https://www.linkedin.com/in/andy-chen-7a820015a/"><span style="font-size: 80px;"class="span-fa"><i class="fab fa-linkedin"></i></span></a>
+    <p></p>
+    <a href="https://github.com/anchen31"><span style="font-size: 80px; "class="span-fa"><i class="fab fa-github"></i></span></a>
+    <p></p>
+    <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://drive.google.com/file/d/13RIzhonxNiBsgpX_WZ5uc6nnEwRfY9FU/view?usp=sharing';">Resume</button>
+
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+
+</body>
 </html>
