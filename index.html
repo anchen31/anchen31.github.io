@@ -24,26 +24,18 @@ body {font-family: "Lato", sans-serif}
   </div>
 </div>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
-</div>
-
 <!-- Page content -->
 <div class="w3-content w3-sand" style="max-width:2000px;margin-top:46px">
 
-  <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
     <h2 class="w3-wide">Andy Chen</h2>
     <p class="w3-opacity"><i>Cognitive Science </i></p>
     <p class="w3-opacity"><i>Rising Junior at UCSD</i></p>
+    <p class="w3-opacity"><i>AS in Computer Science</i></p>
     <p class="w3-justify"></p>
 
   </div>
 
-  <!-- The Tour Section -->
   <div class="w3-black" id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">Personal Projects</h2>
@@ -51,45 +43,43 @@ body {font-family: "Lato", sans-serif}
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
-          <!--<img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">-->
+          <div class="w3-container w3-sand">
+            <p><b>Sentiment Scraper into mySQL</b></p>
+            <p class="w3-opacity">Storage and CleaningExpanding</p>
+            <p>This is written in Python and uses the Reddit api (PRAW) alongside the Twitter api and scrapes finviz.com for financial and sentiment data.
+            All of this data is normalized, then stored into a mySQL db for training a predictive model.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://github.com/anchen31/SSIMSQL';">View Project</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
           <div class="w3-container w3-sand">
             <p><b>Stock bot with GUI</b></p>
-            <p class="w3-opacity">Currently expanding</p>
+            <p class="w3-opacity">Visualization</p>
             <p>This is written in Python and uses the interactive brokers API to buy/sell and pull data. This also uses the package Tkinter to create a GUI alongside other graphing and dataset manipulating packages from the Python library.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://github.com/anchen31/StonkBot';">View Project</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <!--<img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">-->
           <div class="w3-container w3-sand">
-            <p><b>Sentiment Scraper into mySQL db</b></p>
-            <p class="w3-opacity">Currently working on</p>
-            <p>This is written in Python and uses the Reddit api (PRAW) alongside the Twitter api and scrapes finviz.com for financial and sentiment data.
-            All of this data is normalized and cleaned and then stored into a mySQL db for training a predictive model</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://github.com/anchen31/SSIMSQL';">View Project</button>
-          </div>
-        </div>
-         <div class="w3-third w3-margin-bottom">
-          <!--<img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">-->
-          <div class="w3-container w3-sand">
-            <p><b>NN Finance</b></p>
-            <p>This project uses sklearn, tensorflow keras, and tensor board to help me get a hands on approach with neural networks. This uses a reccurent neural network and LSTM cells to predict the future price of cryptocurrencies</p>
+            <p><b>NNFinance</b></p>
+            <p class="w3-opacity">Deep learning & Testing</p>
+            <p>This is written in Python and uses tensorflow keras alongside sklearn and tensorboard for a hands on feel for neural networks and how to evaluate models for future projects and reference. This predicts crypto prices with a CNN.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://github.com/anchen31/NNFinance';">View Project</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <!--<img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">-->
           <div class="w3-container w3-sand">
             <p><b>Symptom Diagnosis</b></p>
+            <p class="w3-opacity">Data manipulation</p>
             <p>This project is written in Python and uses a dataset from Kaggle to give a diagnosis based of off a user's input of symptoms. 
                 It will give out a diagnosis and organize it by it's commonality and show whether it is life threatening or not.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick= "window.location.href='https://github.com/anchen31/symptPred';" >View Project</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
-          <!--<img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">-->
           <div class="w3-container w3-sand">
             <p><b>Personal website</b></p>
+            <p class="w3-opacity">UX</p>
             <p>This project used a template and expanded off of it using HTML5, CSS, and Bootstrap to get a beginners feel of web development and expand my UI and front end developing skills.</p>
             <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href='https://github.com/anchen31/anchen31.github.io';">View Project</button>
           </div>
